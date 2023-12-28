@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Shopping Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-GL4Tn4hxrqLz7wX9vKyiFkqO0Pgg3vOZd6i3AZNXO9QmMS5r9Q0XAcJpMz9F8g4vZn9p+ATVMa2VAZiIsz7hMg==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar">
+        <div class="logo"><h1>Hasan</h1></div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="sale.html">Sale</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html"><i class="fas fa-user"></i></a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+    </nav>
+    <div class="cart-container">
+
+        <div class="cart-item"> <!-- item number 1-->
+            <img src="baggy.png" alt="Item 1">
+            <div class="cart-item-details">
+                <h2 class="cart-item-title">Baggy Jeans</h2>
+                <p class="cart-item-price">PKR 2175</p>
+            </div>
+            <button class="remove-button">Remove</button>
+        </div>
+
+        <div class="cart-item"> <!-- item number 2-->
+            <img src="hoodie.png" alt="Item 2">
+            <div class="cart-item-details">
+                <h2 class="cart-item-title">Zipper Hoodie</h2>
+                <p class="cart-item-price">PKR 2175</p>
+            </div>
+            <button class="remove-button">Remove</button>
+        </div>
+
+
+    </div>
+
+    <div class="summary"> <!-- div for summary of the order-->
+        <h2>Summary</h2>
+        <div class="summary-item">
+            <span>Subtotal:</span>
+            <span>PKR 4350</span>
+        </div>
+        <div class="summary-item">
+            <span>Shipping:</span>
+            <span>PKR 500</span>
+        </div>
+        <div class="summary-item summary-total">
+            <span>Total:</span>
+            <span>PKR 4850</span>
+        </div>
+        <a href="checkout.html"><button style="cursor:pointer">Checkout</button></a> <!-- checkout button takes user to payment page-->
+    </div>
+    </div>
+
+    <footer>
+        <p class="fp">hasanclothes@gmail.com</p>
+    </footer>
+</body>
+</html>
